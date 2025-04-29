@@ -1,4 +1,4 @@
-🎬 #TheMovieTracker
+🎬 TheMovieTracker
 
 
 TheMovieTracker é uma aplicação web que permite aos usuários explorar informações detalhadas sobre filmes, incluindo títulos, sinopses e pôsteres. Utilizando a API do TMDb, oferece uma interface moderna e responsiva para descobrir e acompanhar filmes.
