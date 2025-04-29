@@ -1,12 +1,24 @@
-# React + Vite
+🎬 TheMovieTracker
+TheMovieTracker é uma aplicação web que permite aos usuários explorar informações detalhadas sobre filmes, incluindo títulos, sinopses e pôsteres. Utilizando a API do TMDb, oferece uma interface moderna e responsiva para descobrir e acompanhar filmes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Demonstração
 
-Currently, two official plugins are available:
+✨ Funcionalidades
+🔍 Pesquisa de filmes por título
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📄 Visualização de detalhes do filme: título, sinopse e pôster
 
-## Expanding the ESLint configuration
+📱 Interface responsiva para dispositivos móveis e desktops
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌙 Tema claro para melhor legibilidade
+
+🛠️ Tecnologias Utilizadas
+React – Biblioteca JavaScript para construção de interfaces de usuário
+
+React Router – Gerenciamento de rotas na aplicação
+
+Tailwind CSS – Framework CSS utilitário para estilização rápida
+
+TMDb API – Fonte de dados dos filmes
+
+Context API – Gerenciamento de estado global
