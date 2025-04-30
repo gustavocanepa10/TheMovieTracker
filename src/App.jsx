@@ -6,6 +6,8 @@ import { HomePage } from "./pages/HomePage"
 import { ContextFilmProvider } from "./context/filmContext"
 import { FilmInfo } from "./pages/filmInfo"
 
+import { FormFilm } from "./pages/Form"
+
 function App() {
     return (
         <ContextFilmProvider>
@@ -18,6 +20,8 @@ function App() {
             <Route  path = 'homepage' element = {<HomePage/>}/>
 
             <Route  path = 'homepage/:id/:title' element = {<FilmInfo/>} />
+
+            <Route path = '/form' element = {<FormFilm/>} />
             
 
            
