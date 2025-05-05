@@ -25,7 +25,7 @@ export function ContextFilmProvider({ children }) {
           "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzZDk4M2EzZjk1MTE3ODcyMjJiMzJiM2Q5ZmFlZTQzYSIsIm5iZiI6MTc0NTY3MjUwMC45MTIsInN1YiI6IjY4MGNkOTM0MWI4NmVhNWFmODgwZGUyYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.LgP3X3HiOR0BFSASLAp48jwcHs4cyv34_M8oMM7yoNk",
       },
       params: {
-        language: "en-US",
+        language: "pt-BR",
       },
     })
       .then((response) => {
@@ -40,13 +40,16 @@ export function ContextFilmProvider({ children }) {
   async function getFilm(id) {
     try {
       const res = await fetch(
-        `https://api.themoviedb.org/3/movie/${id}`,
+        `https://api.themoviedb.org/3/movie/${id}?language=pt-BR `,
         {
           headers: {
             accept: "application/json",
             authorization:
               "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzZDk4M2EzZjk1MTE3ODcyMjJiMzJiM2Q5ZmFlZTQzYSIsIm5iZiI6MTc0NTY3MjUwMC45MTIsInN1YiI6IjY4MGNkOTM0MWI4NmVhNWFmODgwZGUyYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.LgP3X3HiOR0BFSASLAp48jwcHs4cyv34_M8oMM7yoNk",
           },
+          
+          
+
         }
       );
       const data = await res.json();

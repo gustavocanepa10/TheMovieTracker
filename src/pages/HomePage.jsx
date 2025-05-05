@@ -27,9 +27,7 @@ export function HomePage() {
       <div className="w-screen h-screen flex items-center gap-25">
         <img className="w-max h-max p-20" src={Icone} alt="" />
         <Input value = {moviesSearched}  onChange = {(e) => setMoviesSearched(e.target.value)  } placeholder="🔍Search a movie or a series" className="w-96 h-8 ml-100" />
-        <Link to = "/form"  className =  "bg-white shadow-lg font-semibold text-center rounded-md m-4  w-48 h-8">
-        Adicionar um novo filme</Link>
-      
+        
       </div>
 
 
